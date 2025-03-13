@@ -284,7 +284,7 @@ const colrgb s_typeColours[]={
 	{45,45,90},	// solid
 	{90,45,45},	// death
 };
-enum {SHOW_NONE,SHOW_OPAQUE,SHOW_SEMITRANS}ColShowType;
+typedef enum { SHOW_NONE, SHOW_OPAQUE, SHOW_SEMITRANS } ColShowType;
 #if defined (__USER_paul__)
 ColShowType	showCollision=SHOW_OPAQUE;
 #elif defined (__USER_art__) || defined (__USER_sbart__)
