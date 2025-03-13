@@ -1,0 +1,7 @@
+	section		.rdata
+	global			INF_Version
+	global			INF_Territory
+	global			INF_FileSystem
+INF_Version	db "DEBUG",0
+INF_Territory	db "USA",0
+INF_FileSystem	db "CD",0

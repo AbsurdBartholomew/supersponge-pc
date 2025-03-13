@@ -1,0 +1,13 @@
+// PATRICK Anim Header
+
+#ifndef	__ANIM_PATRICK_HEADER__
+#define	__ANIM_PATRICK_HEADER__
+
+
+enum	ANIM_PATRICK_LIST
+{
+	ANIM_PATRICK_IDLEBREATHE=0,
+	NUM_ANIM_PATRICK
+};
+
+#endif

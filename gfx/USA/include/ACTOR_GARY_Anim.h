@@ -1,0 +1,14 @@
+// GARY Anim Header
+
+#ifndef	__ANIM_GARY_HEADER__
+#define	__ANIM_GARY_HEADER__
+
+
+enum	ANIM_GARY_LIST
+{
+	ANIM_GARY_IDLE=0,
+	ANIM_GARY_SLITHER,
+	NUM_ANIM_GARY
+};
+
+#endif

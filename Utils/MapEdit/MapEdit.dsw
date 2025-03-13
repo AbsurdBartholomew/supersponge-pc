@@ -1,0 +1,140 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "DaveLib"=..\LIBS\DaveLib\DaveLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "GLib"=..\Libs\GLib\Glib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "GinLib"=..\Libs\GinLib\ginlib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "MapEdit"=.\MapEdit.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name GinLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name GLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name maths
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "MkLevel"=..\MkLevel\MkLevel.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name GinLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name GLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name PsxLib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name TexGrab
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name maths
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DaveLib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "PsxLib"=..\LIBS\PsxLib\PsxLib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "TexGrab"=..\Libs\TexGrab\TexGrab.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "maths"=..\Libs\Maths\maths.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

@@ -1,0 +1,21 @@
+#include	data/scripts/defs/defs.scr
+
+#include	data/scripts/defs/charanim.scr
+#include	data/scripts/defs/items.scr
+#include	data/scripts/defs/response.scr
+#include	data/scripts/defs/trans.scr
+
+
+if(_isHoldingWeapon(WEAPON_BALLOON)==FALSE)
+{
+	_setText(CHAR_PATRICK,STR__INGAME__CH2__L2__PATRICK1);
+	_setResponseOptions(QUESTION_OK);
+	do
+	{
+		pause;
+	}
+	while(_getResponse()==ANSWER_NONE);
+	_giveWeapon(WEAPON_BALLOON);
+}
+
+stop;

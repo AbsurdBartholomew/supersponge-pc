@@ -1,0 +1,14 @@
+// ANENOME Anim Header
+
+#ifndef	__ANIM_ANENOME_HEADER__
+#define	__ANIM_ANENOME_HEADER__
+
+
+enum	ANIM_ANENOME_LIST
+{
+	ANIM_ANENOME_BASE=0,
+	ANIM_ANENOME_FIRE,
+	NUM_ANIM_ANENOME
+};
+
+#endif

@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "*.gaz": "makefile",
+        "cstdint": "cpp",
+        "stacktrace": "cpp",
+        "LIBGTE.C": "cpp",
+        "bit": "cpp",
+        "charconv": "cpp",
+        "codecvt": "cpp",
+        "compare": "cpp",
+        "cstddef": "cpp",
+        "string": "cpp",
+        "optional": "cpp",
+        "format": "cpp",
+        "limits": "cpp",
+        "memory": "cpp",
+        "new": "cpp",
+        "functional": "cpp",
+        "INLINE_C.C": "cpp",
+        "LIBAPI.C": "cpp",
+        "LIBPAD.C": "cpp",
+        "LIBETC.C": "cpp",
+        "LIBCD.C": "cpp"
+    },
+    "git.ignoreLimitWarning": true,
+    "cmake.ignoreCMakeListsMissing": true
+}

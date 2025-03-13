@@ -1,0 +1,1200 @@
+[STR__CREDITS__MANAGING_DIRECTOR]
+eng=Managing Director
+
+[STR__CREDITS__JIM_GARDNER]
+eng=Jim Gardner
+
+[STR__FRONTEND__CONTROL_STYLE]
+eng=CONTROL STYLE
+
+[STR__INGAME__FMA_PARTY_SANDY]
+eng=Happy Birthday!
+
+[STR__MEMCARD__NOSPACEONCARD]
+eng=Insufficient free blocks available on MEMORY CARD in MEMORY CARD SLOT 1. One free block required
+
+[STR__CREDITS__PETRO_PIASECKYJ]
+eng=Petro Piaseckyj
+
+[STR__CREDITS__NICK_DRY]
+eng=Nick Dry
+
+[STR__CHAPTER_2__BOSS_INSTRUCTIONS]
+eng=It is rumored that this mechanical creature is one of Plankton's creations gone haywire. This thing will swallow you whole, so keep your distance. If only you had a jelly launcher.
+
+[STR__CREDITS__WAI_HUNG_WAN]
+eng=Wai Hung Wan
+
+[STR__INGAME__CH4__L1__SBCELEBRATE]
+eng=Tartar sauce! It ate my coin. Double Tartar sauce, it's  empty!!
+
+[STR__SHOP_SCREEN__ITEM_ALREADY_PURCHASED]
+eng=Item already purchased
+
+[STR__INGAME__FMA_C2_BB_ZZZ]
+eng=zzzzzzzzzz
+
+[STR__INGAME__CH2__L1__KRUSTY1]
+eng=SpongeBob!!! Now listen Boy! I'm countin' on ya to use this ere coral blower to make your way around Bikini Bottom!!! And watch out for that scurvy Plankton he is up to his old tricks again!!!
+
+[STR__INGAME__CH2__L1__KRUSTY2]
+eng=Use the Coral Blower me boy! Blast away!
+
+[STR__INGAME__FMA_C4_BB0]
+eng=Look kid you are beginning to bug me now! One of my favorite kelp bars would be great. Hey kid, you can only get them in Bikini Bottom!
+
+[STR__CHAPTER_1__BOSS_TITLE]
+eng=Mother Jellyfish...
+
+[STR__CHAPTER_5__BOSS_TITLE]
+eng=Iron Dogfish...
+
+[STR__SLOT_SELECT_SCREEN__CONFIRM_ERASE_GAME]
+eng=Are you sure that you want to erase this game?
+
+[STR__INGAME__CH1__L2__SANDY1]
+eng=Take that you ' ya sorry ol' clam. Y'all need to learn some manners! Hold on there little square dude if you want to defend yourself you need to do this!!!!
+
+[STR__CREDITS__MELISSA_ROTH]
+eng=Melissa Roth
+
+[STR__INGAME__CH1__L2__SANDY2]
+eng=I like you SpongeBob. We're tighter than bark on a tree.  Why don't y'all borrow my diving hat so your head can stay water logged.
+
+[STR__SLOT_SELECT_SCREEN__CROSS_TO_CONFIRM]
+eng=Confirm
+
+[STR__INGAME__CH1__L2__SANDY3]
+eng=SpongeBob you silly 'ol sponge, try using your helmet!!!
+
+[STR__CREDITS__GARY_LIDDON]
+eng=Gary Liddon
+
+[STR_PROMPT_NET_THROW]
+eng=Throw JellyFish
+
+[STR__FRONTEND__RIGHT]
+eng=RIGHT
+
+[STR__CREDITS__KARL_JEFFREY]
+eng=Karl Jeffrey
+
+[STR__SLOT_SELECT_SCREEN__LEVEL_REACHED]
+eng=Level %d-%d
+
+[STR__FRONTEND__CATCH]
+eng=CATCH
+
+[STR__CREDITS__TIFFANY_TERNAN]
+eng=Tiffany Ternan
+
+[STR__INGAME__CH5__L1__SBCELEBRATE]
+eng=Right, now to find an aerial?????!!!
+
+[STR__CREDITS__BECKY_ALLEN]
+eng=Becky Allen
+
+[STR__SHOP_SCREEN__TRIANGLE_TO_EXIT]
+eng=Exit
+
+[STR__FRONTEND__VERTICAL_POSITION]
+eng=VERTICAL POSITION
+
+[STR__SHOP_SCREEN__LEFT_RIGHT_TO_SELECT_ITEM]
+eng=Select
+
+[STR__CREDITS__PLANKTON___DOUG_LAWRENCE]
+eng=Plankton - Doug Lawrence
+
+[STR__CREDITS__THQ_AND_THE_THQ_LOGO_ARE_TRADEMARKS_AND_OR_REGISTERED_TRADEMARKS_OF_THQ_INC]
+eng=THQ and the THQ logo \nare trademarks and/or\nregistered trademarks of\nTHQ Inc.
+
+[STR__CREDITS__LEIGH_ANNE_BRODSKY]
+eng=Leigh Anne Brodsky
+
+[STR__DEBUG__DEAD_MODE]
+eng=Set DEAD mode
+
+[STR__CREDITS__CHRIS_RUNDELL]
+eng=Chris Rundell
+
+[STR_PROMPT_KARATE_TITLE]
+eng=KARATE GLOVE
+
+[STR__DEBUG__LEVEL_SELECT]
+eng=LEVEL SELECT
+
+[STR__FRONTEND__HORIZONTAL_POSITION]
+eng=HORIZONTAL POSITION
+
+[STR__CREDITS__MERMAID_MAN___ERNEST_BORGNINE]
+eng=Mermaid Man - Ernest Borgnine
+
+[STR__BLANK]
+eng= 
+
+[STR_PROMPT_BUBBLEWAND_BLOW]
+eng=Blow Bubble
+
+[STR__DEBUG__LEVEL_SELECT_C1]
+eng=Chapter 1
+
+[STR__DEBUG__LEVEL_SELECT_C2]
+eng=Chapter 2
+
+[STR__SAVE__UNFORMATTEDCARD]
+eng=MEMORY CARD in MEMORY CARD slot 1 is not formatted.\nDo you want to format it now?
+
+[STR__MEMCARD__SAVEERROR]
+eng=Save error!\n\nPress the X button to continue
+
+[STR__DEBUG__LEVEL_SELECT_C3]
+eng=Chapter 3
+
+[STR__DEBUG__LEVEL_SELECT_C4]
+eng=Chapter 4
+
+[STR__DEBUG__LEVEL_SELECT_C5]
+eng=Chapter 5
+
+[STR__DEBUG__LEVEL_SELECT_C6]
+eng=Chapter 6
+
+[STR__INGAME__FMA_PARTY_BB]
+eng=Happy Birthday!
+
+[STR__CREDITS__BARRY_MARTIN]
+eng=Barry Martin
+
+[STR__CREDITS__DIRECTOR_OF_DEVELOPMENT_AND_PRODUCTION]
+eng=Director of Development and Production
+
+[STR__INGAME__FMA_PARTY_SB0]
+eng=Happy Birthday Patrick from all your friends in Bikini Bottom!
+
+[STR__DEBUG__BASICUNARMED_MODE]
+eng=Set BASIC UNARMED mode
+
+[STR_PROMPT_JELLYLAUNCHER_UNEQUIP]
+eng=Unequip Jelly Launcher
+
+[STR__CREDITS__VOICE_OVER]
+eng=Voice Over
+
+[STR__INGAME__FMA_C4_SB0]
+eng=Surprise! I’m back!
+
+[STR__INGAME__FMA_C4_SB1]
+eng=Look what I have got for you!
+
+[STR__FRONTEND__LOAD]
+eng=LOAD
+
+[STR__PAUSE_MENU__CONFIRM_QUIT]
+eng=Confirm quit?
+
+[STR__CHAPTER_3__BOSS_INSTRUCTIONS]
+eng=Now there are worms, and then there are WORMS! These guys are big! Mermaid Man insists that he chased one away once by jumping on it.
+
+[STR__CREDITS__SENIOR_GROUP_PRODUCT_MANAGER]
+eng=Senior Group Product Manager
+
+[STR__CREDITS__CHUCK_SHEFFIELD]
+eng=Chuck Sheffield
+
+[STR__CREDITS__VERY_SPECIAL_THANKS_INDEED_TO]
+eng=Very Special Thanks Indeed to:
+
+[STR__INGAME__FMA_C6_BB_MM0]
+eng=SpongeBob SquarePants!!! Wait until I get my hands on that porous Freak!!!!
+
+[STR__INGAME__CH3__L3__PATRICK1]
+eng=DA DA DA DA DA DUM DUM DUM DUM.... Here you go SpongeBob! One bubblewand dipped and ready to go!!!!  Up, down and all around! I don't know what that means.
+
+[STR__INGAME__CH3__L3__PATRICK2]
+eng=SpongeBob , Here you go... another  bubblewand dipped and ready to go!!!!  I did it again.
+
+[STR__CREDITS__ASSISTANT_PRODUCER]
+eng=Assistant Producer
+
+[STR__INVINCIBILE_SPONGEBOB]
+eng=Invincible SpongeBob
+
+[STR__CREDITS__DEVELOPMENT_DIRECTOR]
+eng=Development Director
+
+[STR__SLOT_SELECT_SCREEN__EMPTY_SLOT]
+eng=EMPTY GAME
+
+[STR__FRONTEND__CONTROLS]
+eng=CONTROLS
+
+[STR__FRONTEND__BGM]
+eng=BGM VOLUME
+
+[STR__CREDITS__FMV]
+eng=FMV
+
+[STR__CREDITS__SQUIDWARD___ROGER_BUMPASS]
+eng=Squidward - Roger Bumpass
+
+[STR__CHAPTER_1]
+eng=Bikini Bottom
+
+[STR__CHAPTER_2]
+eng=To the Center of the Earth
+
+[STR__CHAPTER_3]
+eng=Bikini Bottom Prehistoric Times
+
+[STR__CHAPTER_4]
+eng=Rock Bottom
+
+[STR__CHAPTER_5]
+eng=Industrial
+
+[STR__INGAME__FMA_C2_MM_ZZZ]
+eng=zzzzzzzzzz
+
+[STR__CREDITS__TREENA_SEYMOUR]
+eng=Treena Seymour
+
+[STR__CREDITS__JENNIFER_PENN_FOR_TAMING_THE_NOMAD]
+eng=Jennifer Penn for taming the nomad
+
+[STR__BACKEND__PRESS_START]
+eng=PRESS START
+
+[STR__DEBUG__BUBBLEMIXTURE_MODE]
+eng=Set BUBBLE MIXTURE mode
+
+[STR__INGAME__CH1__L4__SBCELEBRATE]
+eng= 
+
+[STR__DEBUG__CORALBLOWER_MODE]
+eng=Set CORAL BLOWER mode
+
+[STR__INGAME__FMA_PARTY_SB]
+eng=Happy Birthday!
+
+[STR__CREDITS__RUSSELL_HICKS]
+eng=Russell Hicks
+
+[STR__MEMCARD__FORMATTINGINTERRUPTED]
+eng=Operation interrupted!\n\nPress the X button to continue
+
+[STR__CREDITS__IAN_SEDENSKY]
+eng=Ian Sedensky
+
+[STR__FRONTEND__LEFT]
+eng=LEFT
+
+[STR__INGAME__FMA_C1_BB0]
+eng=Ohhh no, not you again. Just keep the noise down. What do you want?
+
+[STR__INGAME__FMA_PLANKTON]
+eng=Blast you SpongeBreath, you have found my secret time machine! Whatever you do make sure you fill it up before you bring it back!!!!
+
+[STR_PROMPT_NET_TITLE]
+eng=JELLYFISHING NET
+
+[STR__CREDITS__JEFFERY_LAPIN]
+eng=Jeffery Lapin
+
+[STR__INGAME__FMA_C1_BB1]
+eng=Well we are a bit busy right now. no rest for super heroes!!!!! Well I know that Mermaid Man might consider signing one for a superhero snack.
+
+[STR__INGAME__FMA_C5_BB0]
+eng=Mmhh! Thanks kid. Look Kid MM has had a turn, the TV has broken and unless you get the right tools he is gonna miss his favorite cartoon. Can you help?
+
+[STR__FRONTEND__WEAPONCHANGE]
+eng=WEAPON
+
+[STR__CREDITS__SARAH_RUNDELL]
+eng=Sarah Rundell
+
+[STR__CHAPTER_4__BOSS_TITLE]
+eng=Flying Dutchman...
+
+[STR__BOSS__PREVIOUS]
+eng=Previous page
+
+[STR__CREDITS__NEIL_CAMPBELL]
+eng=Neil Campbell
+
+[STR__CREDITS__CLIMAX_GROUP]
+eng=Climax Group
+
+[STR__CHAPTER_1__BOSS_SUB_TITLE]
+eng=(Pg. 14, The Things That Sting Section)
+
+[STR__CREDITS__CAROLINA_BEROZA]
+eng=Carolina Beroza
+
+[STR__CREDITS__SPECIAL_THANKS_TO]
+eng=Special thanks to:
+
+[STR__CHAPTER_2__BOSS_SUB_TITLE]
+eng=(Pg. 23, The Evil Machines Section)
+
+[STR__CHAPTER_3__BOSS_SUB_TITLE]
+eng=(Pg. 78, The Gross Creature Section)
+
+[STR_PROMPT_JELLYLAUNCHER_FIRE]
+eng=Fire Jellyfish
+
+[STR_PROMPT_BUBBLEWAND_TITLE]
+eng=BUBBLE WAND
+
+[STR__CHAPTER_4__BOSS_SUB_TITLE]
+eng=(Pg. 52, The Ghost Section)
+
+[STR__FRONTEND__PLAY_ADVERT]
+eng=PLAY TRAILER
+
+[STR__CHAPTER_5__BOSS_SUB_TITLE]
+eng=(Pg. 92, The Obscure Stuff Section)
+
+[STR__DEBUG__JELLYLAUNCHER_MODE]
+eng=Set JELLY LAUNCHER mode
+
+[STR__MAP_SCREEN__X_FOR_NEXT_CHAPTER]
+eng=Next chapter
+
+[STR_PROMPT_BUBBLEWAND_UNEQUIP]
+eng=Unequip Bubble Wand
+
+[STR__SHOP_SCREEN__CONFIRM_PURCHASE]
+eng=This item costs %d tokens, you currently have %d tokens. Are you sure that you want to purchase it?
+
+[STR__CREDITS__TEREZA_OWENS_FOR_PATIENCE_AND_A_BEAUTIFUL_WEDDING_DAY]
+eng=Tereza Owens for patience and a beautiful wedding day
+
+[STR__CREDITS__SHAUN_PEARSON]
+eng=Shaun Pearson
+
+[STR__MAP_SCREEN__X_TO_START]
+eng=Start
+
+[STR__INGAME__CH2__L4__SBCELEBRATE]
+eng=Right! Now back to Mermaid Man to receive my new orders!!!
+
+[STR__FRONTEND__SFX]
+eng=SFX VOLUME
+
+[STR__DEBUG__BALLOON_MODE]
+eng=Set BALLOON mode
+
+[STR__CREDITS__RICHARD_EDWARDS]
+eng=Richard Edwards
+
+[STR__CREDITS__SPONGEBOB_SQUAREPANTS_GARY_FRENCH_MAN___TOM_KENNY]
+eng=SpongeBob/Gary/French Man - Tom Kenny
+
+[STR__CREDITS__ARTISTS]
+eng=Artists
+
+[STR__CREDITS__TESTERS]
+eng=Testers
+
+[STR__CREDITS__GJALEN_GIVHAN]
+eng=Gjalen Givhan
+
+[STR__INGAME__CH1__L1__SPONGEY1]
+eng=Hi Squidward !!! Ready for another great day together, friend?
+
+[STR__FRONTEND__JUMP]
+eng=JUMP
+
+[STR__FRONTEND__TRIANGLE_TO_GO_BACK]
+eng=Back
+
+[STR__CREDITS__STEVE_CROCKER]
+eng=Steve Crocker
+
+[STR__INGAME__FMA_C1_MM0]
+eng= ....sea-nut butter.... ....tomatoes.... ....jelly.....
+
+[STR__MEMCARD__SAVEOK]
+eng=Save complete!\n\nPress the X button to continue
+
+[STR__CREDITS__PETER_CHAFFEY_FOR_LISTENING_AND_FEEDING_CATS]
+eng=Peter Chaffey for listening and feeding cats
+
+[STR_PROMPT_KARATE_UNEQUIP]
+eng=Unequip Glove
+
+[STR__CREDITS__CREATIVE_SERVICES]
+eng=Creative Services
+
+[STR__CHAPTER_4__BOSS_INSTRUCTIONS]
+eng=Now here's a guy that doesn't let up. He has a nasty knack of disappearing and reappearing as he pleases. A jelly launcher could prove handy... but then again, he is a ghost...
+
+[STR__INGAME__FMA_PARTY_KRABS]
+eng=Happy Birthday!
+
+[STR__FRONTEND__FIRE]
+eng=FIRE
+
+[STR_PROMPT_CORALBLOWER_UNEQUIP]
+eng=Unequip Coral Blower
+
+[STR__INGAME__CH3__L4__SBCELEBRATE]
+eng=Alright, lets get out of here and back to shady shoals!! What is that smell!!
+
+[STR__INGAME__FMA_PARTY_VO0]
+eng=Stand Still while I take your picture.
+
+[STR__SLOT_SELECT_SCREEN__SLOT_NUMBER]
+eng=Game %d/%d
+
+[STR_PROMPT_JELLYLAUNCHER_FIRE2]
+eng=(Held) Fire Burst
+
+[STR__CREDITS__STEPHEN_YOUNGWOOD]
+eng=Stephen Youngwood
+
+[STR__SLOT_SELECT_SCREEN__TRIANGLE_TO_EXIT]
+eng=Exit
+
+[STR_PROMPT_NET_UNEQUIP]
+eng=Unequip Net
+
+[STR__CREDITS__PRODUCER]
+eng=Producer
+
+[STR__NOW_LOADING]
+eng=NOW LOADING...
+
+[STR__CREDITS__ERIKA__E__ORTIZ]
+eng=Erika "E" Ortiz
+
+[STR__CREDITS__JEREMY_BARNES]
+eng=Jeremy Barnes
+
+[STR__DEBUG__FLY_MODE]
+eng=Set FLY mode
+
+[STR__CREDITS__C_2001_THQ_INC]
+eng=(C) 2001 THQ Inc.
+
+[STR__BACKEND__CONTINUES_REMAINING]
+eng=Continues: 
+
+[STR__CREDITS__LEAD_ARTIST]
+eng=Lead Artist
+
+[STR__CREDITS__LEAD_TESTER]
+eng=Lead Tester
+
+[STR__FRONTEND__GAME_TITLE]
+eng=SpongeBob SquarePants:\nSuperSponge
+
+[STR__INGAME__FMA_C1_SB0]
+eng=Gary, I just had a great idea about what to get Patrick for his birthday!!
+
+[STR__INGAME__FMA_C1_SB1]
+eng=It’s my best friend Patrick’s birthday and a signed photo of his favorite superheroes would be the best thing ever!
+
+[STR__INGAME__FMA_C4_MM_GASP]
+eng=Gasp!
+
+[STR__INGAME__FMA_C1_SB2]
+eng=Like a calculator, you can count on it!
+
+[STR__BOSS_TEXT_TITLE]
+eng=Boss Hints From Mermaid Man and Barnacle Boy's Superhero Handbook
+
+[STR__CREDITS__KIRK_SOMDAL]
+eng=Kirk Somdal
+
+[STR__CREDITS__JOE_CAVALLA]
+eng=Joe Cavalla
+
+[STR__INGAME__FMA_C5_SB0]
+eng=Mmhh that’s funny? Oh I know!
+
+[STR__INGAME__FMA_C5_SB1]
+eng=Does a snail meow? You bet!
+
+[STR__CHAPTER_2_LEVEL_1]
+eng=Cavernous Canyons
+
+[STR__CREDITS__BRIAN_FARRELL]
+eng=Brian Farrell
+
+[STR__CREDITS__DEB_KRASSNER]
+eng=Deb Krassner
+
+[STR__CHAPTER_2_LEVEL_2]
+eng=Thermal Tunnels
+
+[STR__MAP_SCREEN__TRIANGLE_TO_SAVE]
+eng=Save
+
+[STR__CHAPTER_2_LEVEL_3]
+eng=Acrid Air Pockets
+
+[STR__CHAPTER_4_LEVEL_1]
+eng=Road to Rock Bottom
+
+[STR__INGAME__CH1__L3__SBCELEBRATE]
+eng=Now to find the Bread. But where? I know! Bikini Bottom has loads of bread!  
+
+[STR__SLOT_SELECT_SCREEN__CIRCLE_TO_ERASE_SLOT]
+eng=Erase game
+
+[STR__CHAPTER_2_LEVEL_4]
+eng=Lava Fields
+
+[STR__CHAPTER_4_LEVEL_2]
+eng=Lonely Souls
+
+[STR__CHAPTER_4_LEVEL_3]
+eng=Graveyard
+
+[STR__CHAPTER_6_LEVEL_1]
+eng=Big Wheel
+
+[STR__CHAPTER_4_LEVEL_4]
+eng=Last Stop
+
+[STR__CHAPTER_6_LEVEL_2]
+eng=Roller Coaster
+
+[STR__CREDITS__MICHAEL_RUBINELLI]
+eng=Michael Rubinelli
+
+[STR__CHAPTER_6_LEVEL_3]
+eng=Tunnel of Love
+
+[STR__INGAME__CH4__L4__SBCELEBRATE]
+eng=I've got a kandy bar for my favorite Super hero!
+
+[STR__CHAPTER_6_LEVEL_4]
+eng=Ghost Train
+
+[STR__CREDITS__LAURA_GALLARDO]
+eng=Laura Gallardo
+
+[STR__MEMCARD__DOYOUWANTTOFORMATCARD]
+eng=MEMORY CARD in MEMORY CARD slot 1 is not formatted. Do you wish to format?
+
+[STR__CHAPTER_6_LEVEL_5]
+eng=Snail Race
+
+[STR__CREDITS__VP_OF_PRODUCT_DEVELOPMENT]
+eng=VP of Product Development
+
+[STR__CREDITS__SLAVEMONKEY_TRAVISTY_THOLEN]
+eng="Slavemonkey Travisty" Tholen
+
+[STR__INGAME__CH1__L1__SQUIDWARD1]
+eng=Today's Sunday, SpongeBob.  Forget the Krusty Krab. Hey moron, why don't you take your net and go waste somebody else's time!
+
+[STR__SHOP_SCREEN__CANNOT_AFFORD_PURCHASE_SINGULAR]
+eng=This item costs %d tokens, you currently have %d token. You cannot afford to purchase it.
+
+[STR__CREDITS__ROB_WILMOT]
+eng=Rob Wilmot
+
+[STR__INGAME__CH1__L1__SQUIDWARD2]
+eng=Look SpongeBob, I told you, use your net and GO FISH!
+
+[STR__PAUSE_MENU__GAME_PAUSED]
+eng=Game paused
+
+[STR__CREDITS__PAUL_GRENFELL]
+eng=Paul Grenfell
+
+[STR__CREDITS__NICK_INTERACTIVE_WOULD_LIKE_TO_THANK_]
+eng=Nick Interactive\nwould like to thank:
+
+[STR__CREDITS__SENIOR_ARTIST]
+eng=Senior Artist
+
+[STR__CREDITS__NICKELODEON_INTERACTIVE]
+eng=Nickelodeon Interactive
+
+[STR__CREDITS__ERIC_SQUIRES]
+eng=Eric Squires
+
+[STR__OFF]
+eng=OFF
+
+[STR__CREDITS__SANDY_CHEEKS___CAROLYN_LAWRENCE]
+eng=Sandy Cheeks - Carolyn Lawrence
+
+[STR_PROMPT_KARATE_CHOP]
+eng=Chop
+
+[STR__INGAME__CH2__L3__SBCELEBRATE]
+eng=Now to find the False Teeth.... only in the lava fields, better pack some ice - it's gonna be a hot one!
+
+[STR__SHOP_SCREEN__CANNOT_AFFORD_PURCHASE]
+eng=This item costs %d tokens, you currently have %d tokens. You cannot afford to purchase it.
+
+[STR__MEMCARD__NOCARDINSLOT]
+eng=There is no MEMORY CARD in MEMORY CARD slot 1
+
+[STR__INGAME__CH5__L4__SBCELEBRATE]
+eng=I got it! Well, celebration time is over! Now back to Bikini Bottom to add the finishing touches for my Birthday surprise!!!
+
+[STR__FRONTEND__CROSS_TO_SELECT]
+eng=Select
+
+[STR__CREDITS__HOWARD_LIEBESKIND]
+eng=Howard Liebeskind
+
+[STR__FRONTEND__OPTIONS]
+eng=OPTIONS
+
+[STR__INGAME__FMA_C2_BB0]
+eng=Back already?... That is definitely a sandwich fit for a super hero!! Gonna need to think of something to test your super hero potential, and keep busy!  Look MM is not in great super hero condition at the moment and he could really do with some pampering!! Some Kelp cream and a facial! Not for me you understand!
+
+[STR__INGAME__FMA_C6_BB0]
+eng=Congratulations SpongeyBlob you earned this. Patrick is lucky to have a friend like you!
+
+[STR__INGAME__FMA_C6_BB1]
+eng=Well, I have learnt today that friendship is something that is priceless! SB is not such a bad sponge after all!
+
+[STR__CHAPTER_3__BOSS_TITLE]
+eng=Parasitic Worm...
+
+[STR__CREDITS__BRIAN_FREDRICKSON]
+eng=Brian Fredrickson
+
+[STR__CREDITS__V_P__OF_INTERACTIVE_PRODUCT_AND_BOOK_PUBLISHING]
+eng=V.P. of Interactive\nProduct and Book Publishing
+
+[STR__CREDITS__MARK_DAVIES]
+eng=Mark Davies
+
+[STR__DEBUG__SQUEAKYBOOTS_MODE]
+eng=Set SQUEAKY BOOTS mode
+
+[STR_PROMPT_CORALBLOWER_AIM]
+eng=Aim Coral
+
+[STR__CREDITS__DAVE_OWENS]
+eng=Dave Owens
+
+[STR__INGAME__CH3__L2__SANDY1]
+eng=Hai yah!
+
+[STR__FRONTEND__EXIT]
+eng=EXIT
+
+[STR__INGAME__CH3__L2__SANDY2]
+eng=Excellent! You'll be able to use this move on most of the enemies you encounter, as well as special objects.
+
+[STR__NO]
+eng=NO
+
+[STR__CREDITS__LEAD_PROGRAMMER]
+eng=Lead Programmer
+
+[STR__MEMCARD__NOFILESONCARD]
+eng=No SpongeBob game data present on MEMORY CARD in MEMORY CARD slot 1
+
+[STR__PAUSE_MENU__VIBRATION]
+eng=VIBRATION:
+
+[STR__SLOT_SELECT_SCREEN__NEW_SLOT_CREATED]
+eng=New game created!
+
+[STR__MEMCARD__LOADERROR]
+eng=Load Error!\n\nPress the X button to continue
+
+[STR__CREDITS__TESTER]
+eng=Tester
+
+[STR__INGAME__CH3__L3__SBCELEBRATE]
+eng=Uh Oh, those plants are moving! They're not trees....... Hellllllllppppppp!
+
+[STR__CHAPTER_5__BOSS_INSTRUCTIONS]
+eng=Umm, we've heard about this thing but never really seen one ourselves. Whoever heard of a dog living underwater anyway? I'd sooner expect to see a squirrel doing karate.
+
+[STR__FRONTEND__SOUND]
+eng=SOUND
+
+[STR__FRONTEND__ARROWS_TO_ADJUST]
+eng=Adjust
+
+[STR__SHOP_SCREEN__PRICE]
+eng=Price:
+
+[STR__CREDITS__MATT_SIMMONDS]
+eng=Matt Simmonds
+
+[STR__CREDITS__THE_FLYING_DUTCHMAN___BRIAN_DOYLE_MURRAY]
+eng=The Flying Dutchman - Brian Doyle Murray
+
+[STR__MEMCARD__LOADOK]
+eng=Load complete!\n\nPress the X button to continue
+
+[STR__KELP_WORLD]
+eng=Six Clams Adventure Land
+
+[STR__INGAME__TRIGGERSPEECH_028]
+eng=Now Gary, follow me. I’ll protect you!! Just head for your food Gary!!
+
+[STR__FRONTEND__SPEECH]
+eng=SPEECH VOLUME
+
+[STR__CREDITS__STAVIT_YOUNG]
+eng=Stavit Young
+
+[STR__OK]
+eng=OK
+
+[STR__BOSS__CONTINUE]
+eng=Continue
+
+[STR__MAP_SCREEN__X_FOR_PREVIOUS_CHAPTER]
+eng=Previous chapter
+
+[STR__ON]
+eng=ON
+
+[STR_PROMPT_CORALBLOWER_TITLE]
+eng=CORAL BLOWER
+
+[STR__FRONTEND__A]
+eng=A
+
+[STR__FRONTEND__B]
+eng=B
+
+[STR__INGAME__CH1__L2__SBCELEBRATE]
+eng=Yippee... Now to find the Kelp Lettuce...... Off to Fish Hooks Park!
+
+[STR__FRONTEND__C]
+eng=C
+
+[STR__MEMCARD__FORMATTINGPLEASEWIAT]
+eng=Formatting...\n\nDo not remove the MEMORY CARD in MEMORY CARD slot 1
+
+[STR__CREDITS__JASON_DE_HERAS]
+eng=Jason de Heras
+
+[STR__FRONTEND__D]
+eng=D
+
+[STR__CREDITS__ALY_SYLVESTER]
+eng=Aly Sylvester
+
+[STR_PROMPT_CORALBLOWER_FIRE]
+eng=Fire Coral
+
+[STR__INGAME__CH4__L3__SBCELEBRATE]
+eng=This one too? Who could be eating all these Kandy bars...?
+
+[STR__DEBUG__LEVEL_SELECT_START]
+eng=START GAME
+
+[STR__CREDITS__RYAN_CAMU]
+eng=Ryan Camu
+
+[STR__MEMCARD__FORMATTINGOK]
+eng=Format complete!\n\nPress the X button to continue
+
+[STR__FRONTEND__BACK]
+eng=BACK
+
+[STR__PAUSE_MENU__QUIT]
+eng=QUIT
+
+[STR__CREDITS__CLIMAX_LONDON]
+eng=Climax London
+
+[STR_PROMPT_CORALBLOWER_SUCK]
+eng=Collect Coral
+
+[STR__PAUSE_MENU__CONTINUE]
+eng=CONTINUE
+
+[STR_PROMPT_JELLYLAUNCHER_TITLE]
+eng=JELLY LAUNCHER
+
+[STR__FRONTEND__LOOK_UP]
+eng=LOOK UP
+
+[STR__CREDITS__QA_MANAGER]
+eng=QA Manager
+
+[STR__CREDITS__THQ]
+eng=THQ
+
+[STR__CREDITS__CREATIVE_DIRECTOR]
+eng=Creative Director
+
+[STR__INGAME__FMA_C2_SB0]
+eng=I’m ready. I’m ready. I’m ready. Oops!
+
+[STR__INGAME__FMA_C2_SB1]
+eng=I’m on my way!!
+
+[STR__MEMCARD__FORMATTINGERROR]
+eng=Format Error!\n\nPress the X button to continue
+
+[STR__CREDITS__MUSIC_SFX]
+eng=Music SFX
+
+[STR__CREDITS__GEORGE_LENTINO]
+eng=George Lentino
+
+[STR__CREDITS__STEVE_HILLENBURG]
+eng=Steve Hillenburg
+
+[STR__INGAME__FMA_C6_SB0]
+eng=Anybody around here need a TV fixed??!!
+
+[STR__INGAME__FMA_C6_SB1]
+eng=Nope, just force that there, hit that, twist that, erm put that there!!
+
+[STR__INGAME__FMA_C6_SB2]
+eng=Gee thanks!!!
+
+[STR__INGAME__CH2__L2__SBCELEBRATE]
+eng=Now to find the Mud Pack.... off to those nasty Acrid Air Pockets, better make sure I'm nice and moist!
+
+[STR__MEMCARD__DUPLICATESAVENAME]
+eng=File already exists on the\nMEMORY CARD in MEMORY CARD slot 1\nAre you sure you want to overwrite the previous file?
+
+[STR__INGAME__CH2__L2__PATRICK1]
+eng=Hey SpongeBob. I got an extra balloon for my birthday. Want it? Ooooo, you're floating away! Hey, where'd my balloon go? SpongeBob!
+
+[STR__INGAME__CH5__L3__SBCELEBRATE]
+eng=Now, I need a monkey wrench!!!
+
+[STR__INGAME__CH2__L2__PATRICK2]
+eng=Here best pal you can still use my balloon!!! Happy Birthday to me!
+
+[STR__INGAME__FMA_PARTY_PAT0]
+eng=Today’s my birthday? Hmm. I thought I was born a long time ago in a hospital. Thanks for the signed photo of my favorite superheroes anyhow. This is the best birthday ever!!
+
+[STR__CREDITS__AMANDA_WYATT]
+eng=Amanda Wyatt
+
+[STR__CREDITS__ANTONY_SMITH]
+eng=Antony Smith
+
+[STR__FRONTEND__CONFIRM_LOAD]
+eng=SpongeBob game data found.\nAre you sure you want to load?
+
+[STR__FRONTEND__VIBRATION]
+eng=VIBRATION
+
+[STR__CREDITS__JOHN_ARDELL]
+eng=John Ardell
+
+[STR__DEBUG__NET_MODE]
+eng=Set NET mode
+
+[STR__YES]
+eng=YES
+
+[STR__CREDITS__MANNY_GALAN]
+eng=Manny Galan
+
+[STR__BOSS__NEXT]
+eng=Next page
+
+[STR__CREDITS__PERNILLA_BJARNE]
+eng=Pernilla Bjarne
+
+[STR__CREDITS__PETER_DILLE]
+eng=Peter Dille
+
+[STR__CREDITS__ANIMATORS]
+eng=Animators
+
+[STR__BACKEND__GAME_OVER]
+eng=GAME OVER
+
+[STR__CREDITS__GARY_COLEMAN]
+eng=Gary Coleman
+
+[STR__CREDITS__EXECUTIVE_PRODUCER]
+eng=Executive Producer
+
+[STR__CREDITS__DANIELLE_CONTE]
+eng=Danielle Conte
+
+[STR__INGAME__CH3__L2__SBCELEBRATE]
+eng=Now to find a pair of Shell slippers..... and in to Kelp Jungle!
+
+[STR__CREDITS__DIRECTOR_OF_MARKETING_AND_NEW_BUSINESS_DEVELOPMENT]
+eng=Director of Marketing and New Business Development
+
+[STR__CREDITS__PRODUCT_MANAGER]
+eng=Product Manager
+
+[STR__INGAME__FMA_C3_BB0]
+eng=That is amazing, how did you manage that!! Reflecto has nothing on you kid, you must really love your mate Trevor!
+
+[STR__CREDITS__MATT_COOPER_TRON]
+eng=Matt Cooper-tron
+
+[STR__INGAME__FMA_C3_BB1]
+eng=Whatever! Look we could do with some new uniforms? So how about you pop back to pre-historic Bikini Bottom to see what you can find!!!!
+
+[STR__INGAME__CH4__L3__KRUSTY1]
+eng=SpongeBob!!! Now listen Boy! There are dangerous surfaces that none shall pass unless they have squeaky boots. I happen to have a pair. You can owe me.
+
+[STR__INGAME__CH4__L3__KRUSTY2]
+eng=I ain't telling you again lad! Wear your boots and you'll go far! Argh!
+
+[STR__CHAPTER_2__BOSS_TITLE]
+eng=Sub-shark...
+
+[STR__MEMCARD__SAVINGPLEASEWAIT]
+eng=Saving...\n\nDo not remove the MEMORY CARD in MEMORY CARD slot 1
+
+[STR__CREDITS__PROGRAMMING]
+eng=Programming
+
+[STR__CREDITS__GEOFF_TODEBUSH]
+eng=Geoff Todebush
+
+[STR__CREDITS__MARKETING_COORDINATOR]
+eng=Marketing Coordinator
+
+[STR__CREDITS__KEVIN_MARTIN]
+eng=Kevin Martin
+
+[STR__CREDITS__JENNIFER_DAVIS]
+eng=Jennifer Davis
+
+[STR__CREDITS__PATRICK_STAR___BILL_FAGERBAKKE]
+eng=Patrick Star - Bill Fagerbakke
+
+[STR__INGAME__FMA_PARTY_PAT]
+eng=Happy Birthday!
+
+[STR__CREDITS__NIGEL_APPERLY]
+eng=Nigel Apperly
+
+[STR__INGAME__FMA_PARTY_PLANKTON]
+eng=Happy Birthday!
+
+[STR__CREDITS__EXTRA_THANKS_TO]
+eng=Extra thanks to:
+
+[STR__SHOP_SCREEN__CROSS_TO_PURCHASE]
+eng=Purchase
+
+[STR__CREDITS__ALISON_LOCKE]
+eng=Alison Locke
+
+[STR__CHAPTER_1__BOSS_INSTRUCTIONS]
+eng=Be very, very, careful around the very rare Mother Jellyfish. Try to scare it away by throwing whatever you can at it. Perhaps the monster is scared of Jellyfish?
+
+[STR__INGAME__CH1__L1__SBCELEBRATE]
+eng=Yippee... Now to find the Jar of Sea-Nut Butter!
+
+[STR__CREDITS__BUSTER_DEGEORGE]
+eng=Buster DeGeorge
+
+[STR__INGAME__CH4__L2__SBCELEBRATE]
+eng=This one is empty too?? They really should refill them more often... or at least once....
+
+[STR__INGAME__FMA_PARTY_SQUIDWARD]
+eng=Happy Birthday!
+
+[STR__CREDITS__SHERICE_GUILLORY]
+eng=Sherice Guillory
+
+[STR__INGAME__FMA_C4_BB_GASP]
+eng=Gasp!
+
+[STR__CREDITS__PROJECT_COORDINATOR]
+eng=Project Coordinator
+
+[STR__MEMCARD__CHECKING_MEM_CARD]
+eng=Checking...\n\nPlease do not remove the MEMORY CARD in MEMORY CARD slot 1
+
+[STR__FRONTEND__LOOK_DOWN]
+eng=LOOK DOWN
+
+[STR__BACKEND__CONTINUE]
+eng=CONTINUE?
+
+[STR__DUMMY]
+eng=???
+
+[STR__CREDITS__KATE_O_BRIEN]
+eng=Kate O'Brien
+
+[STR__FRONTEND__PRESS_START]
+eng=PRESS START
+
+[STR__INGAME__GARY_MEOW]
+eng=Meow!!
+
+[STR__CREDITS__PRESIDENT]
+eng=President
+
+[STR__CREDITS__NICK_THOMAS]
+eng=Nick Thomas
+
+[STR__CREDITS__GERMAINE_GIOIA]
+eng=Germaine Gioia
+
+[STR__INGAME__CH2__L1__SBCELEBRATE]
+eng=Yippee... Now to find the Loofah...... That has to be in Thermal Tunnels!!
+
+[STR__MEMCARD__LOADINGPLEASEWIAT]
+eng=Loading...\n\nDo not remove the MEMORY CARD in MEMORY CARD slot 1
+
+[STR__INGAME__CH5__L2__SBCELEBRATE]
+eng=I need to find an oil can, but the only place is that abandoned oil rig. Hmmmm. That gives me an idea.
+
+[STR__CREDITS__KELVIN_LIEW]
+eng=Kelvin Liew
+
+[STR__CREDITS__MR__KRABS___JOE_WHYTE]
+eng=Mr. Krabs - Joe Whyte
+
+[STR__SLOT_SELECT_SCREEN__LEFT_RIGHT_TO_SELECT_SLOT]
+eng=Select game
+
+[STR__INGAME__CH1__L4__KRUSTY1]
+eng=SpongeBob!!! Argh! Where have you been hiding, boy? Take these'ere glasses, lad. You got to see the jellyfish before you can catch'em.
+
+[STR__INGAME__FMA_PARTY_MM]
+eng=Happy Birthday!
+
+[STR__INGAME__CH1__L4__KRUSTY2]
+eng=SpongeBob!!! Put yer glasses on lad or I won't let you work during yer vacation!
+
+[STR_PROMPT_NET_CATCH]
+eng=Catch JellyFish
+
+[STR__CREDITS__ERIC_COLEMAN]
+eng=Eric Coleman
+
+[STR__CREDITS__ADDITIONAL_ARTISTS]
+eng=Additional Artists
+
+[STR__CREDITS__DESIGNERS]
+eng=Designers
+
+[STR__INGAME__TRIGGERSPEECH_151]
+eng=Hey, I can use this net to catch jellyfish and throw them at those annoying critters!
+
+[STR__INGAME__FMA_C1_INTRO0]
+eng=Ahhh, ‘ere we are at Bikini Bottom... and today we will be following my favorite creature SpongeBob SquarePants on his adventures around Bikini Bottom.
+
+[STR__INGAME__TRIGGERSPEECH_152]
+eng=With this coral blower, I can suck up all those sea shells laying around, and use them to break the rock walls!
+
+[STR__INGAME__FMA_C1_INTRO1]
+eng=Today he is in search of the Best Birthday Present ever, for his best friend Patrick. The question is how far will he go for his best friend?
+
+[STR__INGAME__TRIGGERSPEECH_153]
+eng=Hmmmm, using the coral blower on those rocks up there should cover up those spikes! Then Gary Can Walk over them. Te-heee-hee!
+
+[STR__INGAME__TRIGGERSPEECH_154]
+eng=This floor doesn’t look too stable. A good ol' butt bounce should do the trick.
+
+[STR__INGAME__TRIGGERSPEECH_155]
+eng=Bubbles! Hey, I wonder if I can jump on them...
+
+[STR__INGAME__TRIGGERSPEECH_156]
+eng=This scale should help me get Gary across...
+
+[STR__INGAME__TRIGGERSPEECH_157]
+eng=I can make bubbles! And what do you know, I can jump on them!
+
+[STR__CREDITS__CHARLES_BLAIR]
+eng=Charles Blair
+
+[STR__CREDITS__ERICA_DAVID]
+eng=Erica David
+
+[STR__INGAME__TRIGGERSPEECH_158]
+eng=A few bubbles should get me up there...
+
+[STR__INGAME__TRIGGERSPEECH_159]
+eng=I can't lift that.. hmmmm. Those pulleys should do the trick.
+
+[STR__MEMCARD__UNFORMATTEDCARD]
+eng=MEMORY CARD in MEMORY CARD slot 1 is not formatted
+
+[STR__INGAME__FMA_C3_SB0]
+eng=aaah!!!
+
+[STR__SLOT_SELECT_SCREEN__CROSS_TO_CREATE]
+eng=Create
+
+[STR__INGAME__FMA_C3_SB1]
+eng=Patrick!
+
+[STR__CHAPTER_1_LEVEL_1]
+eng=Jelly Fields
+
+[STR__FRONTEND__SCREEN]
+eng=SCREEN ADJUST
+
+[STR__INGAME__FMA_C3_SB2]
+eng=By the power of Neptune, and the use of Planktons Time Machine I shall go through time!
+
+[STR__CHAPTER_1_LEVEL_2]
+eng=Sandy's Tree Dome
+
+[STR__CREDITS__DEB_BART]
+eng=Deb Bart
+
+[STR__CHAPTER_3_LEVEL_1]
+eng=Precipice Canyon
+
+[STR__CHAPTER_1_LEVEL_3]
+eng=Fish Hooks Park
+
+[STR__CHAPTER_3_LEVEL_2]
+eng=Desert Wasteland
+
+[STR__CHAPTER_1_LEVEL_4]
+eng=Downtown Bikini Bottom
+
+[STR__CHAPTER_5_LEVEL_1]
+eng=Jelly Fields
+
+[STR__CHAPTER_3_LEVEL_3]
+eng=Kelpazoic Jungle
+
+[STR__INGAME__CH3__L1__SBCELEBRATE]
+eng=Now to find the Scallop Bra, the only place is Desert Wasteland. But what if I get stuck in quicksand? Like that's gonna happen!!
+
+[STR__CHAPTER_5_LEVEL_2]
+eng=Man Ray's Lair
+
+[STR__CHAPTER_3_LEVEL_4]
+eng=Inside the Whale
+
+[STR__CHAPTER_5_LEVEL_3]
+eng=Oil Rig
+
+[STR__INGAME__FMA_PARTY_GARY]
+eng=Happy Birthday!
+
+[STR__CREDITS__BARNACLE_BOY___TIM_CONWAY]
+eng=Barnacle Boy - Tim Conway
+
+[STR__CHAPTER_5_LEVEL_4]
+eng=Canning Factory
+
+[STR__SAVE__DO_YOU_WANT_TO_SAVE]
+eng=Do you want to save?\nOne block required.
+
+[STR__FRONTEND__START_GAME]
+eng=START GAME
+
+[STR__CREDITS__TIM_BLANKLEY]
+eng=Tim Blankley
+
+[STR__DEBUG__FULLUNARMED_MODE]
+eng=Set FULL UNARMED mode
+

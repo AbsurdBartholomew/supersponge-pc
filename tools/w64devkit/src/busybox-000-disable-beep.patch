@@ -1,0 +1,8 @@
+--- a/libbb/lineedit.c
++++ b/libbb/lineedit.c
+@@ -537,5 +537,4 @@
+ static void beep(void)
+ {
+-	bb_putchar_stderr('\007');
+ }
+ 

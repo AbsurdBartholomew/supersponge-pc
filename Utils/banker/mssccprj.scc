@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[banker.dsp]
+SCC_Aux_Path = "\\Archive\Project\SpongeBobPSX\SBVss"
+SCC_Project_Name = "$/Utils/banker", VBAAAAAA

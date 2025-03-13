@@ -1,0 +1,630 @@
+#----------------------------------------------------------------------------
+#	MAKEFILE
+#
+#	Controlling makefile for Power Rangers Light Speed Rescue PSX
+#
+#	Tabbed for 5 9 (Please do not change)
+#
+#	Created:	3rd February 1999 GRLiddon()
+#
+#	Copyright (C) 1997-1999 G R Liddon
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#	Default Target
+#	--------------
+.PHONY: default
+default : all
+
+#----------------------------------------------------------------------------
+#	Name of the project
+#	--------------------
+PROJ :=			Spongey
+
+#----------------------------------------------------------------------------
+
+USE_EGCS :=		1
+BUILD_DIR :=	build
+
+#----------------------------------------------------------------------------
+#	Includes
+#	--------
+include $(BUILD_DIR)/globals.mak
+include $(BUILD_DIR)/getuser.mak
+include $(BUILD_DIR)/parse.mak
+
+#----------------------------------------------------------------------------
+# File Sys specifics
+#----------------------------------------------------------------------------
+PC_FILESYS_SRC :=		pcfile
+PC_STARTUP_OBJ :=
+PC_FILESYS_LIB :=		libsn
+
+CD_FILESYS_SRC :=		cdfile
+CD_STARTUP_OBJ :=		BootObj\snmain
+CD_FILESYS_LIB :=		CMXBoot
+
+#----------------------------------------------------------------------------
+#	Source Code to Compile
+#----------------------------------------------------------------------------
+
+backend_src :=		credits \
+					gameover \
+					party
+
+enemy_src :=		npc \
+					npcdata \
+					npcpath \
+					nsjfish \
+					nclam \
+					nscrab \
+					nshrkman \
+					ngeneric \
+					nanemone \
+					neyeball \
+					nsstomp \
+					nbooger \
+					nmjfish \
+					nfdutch \
+					nsshark \
+					ndogfish \
+					nffolk \
+					nocto \
+					nfskull \
+					nsklfish \
+					nworm \
+					nhcrab \
+					nbblob \
+					npuffa \
+					ngen \
+					nsdart \
+					ndustdev \
+					npbug \
+					nprojjf \
+					nsjback \
+					nsj2back \
+					nbuttfly \
+					nshell \
+					nssnake \
+					nboss \
+					nghost
+
+friend_src :=		friend \
+					fdata \
+					fgary \
+					fsquid \
+					fsandy \
+					fkrusty \
+					fpatrick
+
+platform_src :=		platform \
+					platdata \
+					plinear \
+					pcirculr \
+					pbubble \
+					pfishhk \
+					pgeyser \
+					pbob \
+					pfalling \
+					pcart \
+					pretract \
+					pbranch \
+					ppendulm \
+					pseesaw \
+					pbounce \
+					pdual \
+					pfgen \
+					pfallnor \
+					praft \
+					plantern \
+					pbgeyser \
+					pleaf \
+					pbwheel \
+					psbarrel \
+					pjellfsh \
+					pclam \
+					pfishhk3 \
+					prbridge \
+					pbaloon \
+					ptrpdoor \
+					pconveyr \
+					pplayer \
+					pcbubble \
+					pdrop \
+					psswitch \
+					plift \
+					plurve \
+					pbubtube \
+					pgbubble \
+					pfblock \
+					pghost
+
+hazard_src :=		hazard \
+					hfalling \
+					hpendulm \
+					hfirebal \
+					hsaw \
+					hbarrel \
+					hboat \
+					hcsaw \
+					hmower \
+					hmasher \
+					hfan \
+					hspikes \
+					hbwheel \
+					hdbarrel \
+					hbbarrel \
+					hrrock \
+					hflytrap \
+					hrweight \
+					hpswitch \
+					hrckshrd \
+					hinert \
+					hcswitch \
+					hbrock \
+					hlog \
+					hsrdfish \
+					hcheck
+
+fx_src :=			fx \
+					fxbaseanim \
+					fxbasetrail \
+					fxbaseemitter \
+					fxbubble \
+					fxfire \
+					fxthwack \
+					fxnrgbar \
+					fxjfish \
+					fxfallingtile \
+					fxsteam \
+					fxlaser \
+					fxsmoke \
+					fxgeyser \
+					fxtvexplode \
+					fxzzzz
+
+projectl_src :=		projectl \
+					prnpc \
+					prnpcspr
+
+fileio_src :=		fileio \
+					$($(FILE_SYSTEM)_FILESYS_SRC)
+
+frontend_src :=		demomode \
+					frontend \
+					fmvad \
+					fmvthq \
+					fmvintro \
+					maintitl \
+					nicklogo \
+					options \
+					scrollbg \
+					start
+
+fma_src :=			fma
+
+fmv_src :=			fmv
+
+game_src :=			bosstext \
+					convo \
+					game \
+					gamebubs \
+					gameslot \
+					pause \
+					healthman
+
+gfx_src :=			prim \
+					tpage \
+					animtex \
+					sprbank \
+					fader \
+					fdata \
+					font \
+					bubicles \
+					actor
+
+gui_src :=			gbutton \
+					gfactory \
+					gframe \
+					greadout \
+					gsprite \
+					gtextbox \
+					gui \
+					pointer
+
+jellfish_src :=		jellfish
+
+level_src :=		level \
+					layertile \
+					layerback \
+					layertile3d \
+					layercollision
+
+locale_src :=		textdbase
+
+map_src :=			map
+
+mem_src :=			memory
+
+memcard_src :=		md5 \
+					memcard \
+					saveload
+
+pad_src :=			pads \
+					vibe
+
+paul_src :=			paul \
+					sndtest \
+					scenesel \
+					animtest
+
+pickups_src :=		pickup \
+					pballoon \
+					pblower \
+					pbubmix \
+					pglove \
+					phelmet \
+					pjlammo \
+					pkelp \
+					plife \
+					pnet \
+					pquest \
+					pshoes \
+					pspatula
+
+player_src :=		demoplay \
+					panimsfx \
+					player \
+					pmodes \
+					pmbloon \
+					pmbubble \
+					pmcart \
+					pmchop \
+					pmcoral \
+					pmdead \
+					pmfly \
+					pmjelly \
+					pmnet \
+					pmswal \
+					psbutt \
+					pscart \
+					psdance \
+					psduck \
+					psfall \
+					psfloat \
+					pshitgnd \
+					psidle \
+					psjmpbck \
+					psjump \
+					pslook \
+					psrun \
+					psspring \
+					psswal
+
+save_src :=			save
+
+script_src :=		script \
+					function
+
+shop_src :=			shop
+
+sound_src :=		sound \
+					spu \
+					xmplay \
+					cdxa \
+					xmplaylib
+
+system_src :=		main \
+					gstate \
+					vid \
+					dbg \
+					vsprintf \
+					clickcount \
+					except \
+					gp \
+					lnkopt \
+					$(VERSION)/$(TERRITORY)/$(FILE_SYSTEM)/info
+
+thing_src :=		thing
+
+triggers_src :=		trigger \
+					tboss \
+					tcamlock \
+					tlevexit \
+					tlook \
+					trestart \
+					tteleprt \
+					twater \
+					tplatfrm \
+					tgarygo \
+					tfemit \
+					tbemit \
+					tabemit \
+					tobemit \
+					tlbemit \
+					tifemit \
+					tggleft \
+					tggright \
+					tgstop \
+					thazard \
+					tbgeyser \
+					thazwalk \
+					tsecret \
+					tsemit \
+					tsswitch \
+					tgbowl \
+					twdripemit \
+					tadripemit \
+					todripemit \
+					tldripemit \
+					tsdownemit \
+					tsleftemit \
+					tsrightemit \
+					twindup \
+					twinddown \
+					twindleft \
+					twindright \
+					toilgeyser \
+					tspeech \
+					tbuttfly
+
+
+utils_src :=		utils \
+					sincos \
+					lznp \
+					replace
+
+#system_src_mip :=	$(VERSION)/$(TERRITORY)/$(FILE_SYSTEM)/info
+
+
+#
+#	Compile Build Lists
+#	----------------------------
+SRC_DIRS :=			$(patsubst $(SOURCE_DIR)/%,%,$(wildcard $(SOURCE_DIR)/*))
+
+ALL_ASM_OBJS :=		$(foreach SRC_DIR,$(SRC_DIRS),$(foreach FILE,$($(SRC_DIR)_src_mip),$(SRC_DIR)/$(FILE).o))
+ALL_CPP_OBJS :=		$(foreach SRC_DIR,$(SRC_DIRS),$(foreach FILE,$($(SRC_DIR)_src),$(SRC_DIR)/$(FILE).o))
+
+ALL_CODE_OBJS :=	$(ALL_ASM_OBJS) $(ALL_CPP_OBJS)
+
+#----------------------------------------------------------------------------
+#	Libraries we need
+#----------------------------------------------------------------------------
+include $(BUILD_DIR)/outdirs.mak
+
+#----------------------------------------------------------------------------
+#	Libraries we need
+#----------------------------------------------------------------------------
+
+PSX_LIBS :=				libc libapi libetc libspu libsnd \
+						libgpu libcard libpress \
+						libcd libtap libcomb libmcrd \
+						libgte libpad libds
+MOD_LIBS :=				xmplay
+
+PSX_LIBS_FULL :=		$(foreach FILE,$(PSX_LIBS),$(PSYQ_LIB_DIR)/$(FILE).lib)
+FILESYS_LIBS_FULL :=	$(foreach FILE,$($(FILE_SYSTEM)_FILESYS_LIB),$(PSYQ_LIB_DIR)/$(FILE).lib)
+MOD_LIBS_FULL :=		$(foreach FILE,$(MOD_LIBS),$(MOD_LIB_DIR)/$(FILE).lib)
+
+ALL_LIBS_FULL :=		$(PSX_LIBS_FULL) $(MOD_LIBS_FULL) $(FILESYS_LIBS_FULL)
+
+EXTRA_OBJS :=			$(VLC_LIB_DIR)/vlc_bit.o
+
+#----------------------------------------------------------------------------
+#  Do all the stuff we need to do to build the source code into obj files
+#----------------------------------------------------------------------------
+
+.PHONY : code cleancode
+
+#	Cpp files first
+#	---------------
+include $(BUILD_DIR)/ccopt.mak
+
+$(OBJ_DIR)/%.o : $(SOURCE_DIR)/%.cpp
+	@$(ECHO) Compiling $<
+	@$(CC) -c $(COMMON_CCFLAGS) $< -o a.o
+#	@dmpsx -b a.o
+	@cp a.o $@
+	@$(RM) a.o
+
+#	Stuff to make Info.mip
+#	----------------------
+arse:  $(SOURCE_DIR)/system/$(VERSION)/$(TERRITORY)/$(FILE_SYSTEM)/info.mip
+
+$(SOURCE_DIR)/system/$(VERSION)/$(TERRITORY)/$(FILE_SYSTEM)/info.mip : makefile.gaz $(USER_VAR_FILE)
+	@$(REDIR) $@ \
+'$(TAB)section		.rdata'	\
+'$(TAB)global			INF_Version' \
+'$(TAB)global			INF_Territory' \
+'$(TAB)global			INF_FileSystem' \
+'INF_Version	db &$(VERSION)&,0' \
+'INF_Territory	db &$(TERRITORY)&,0' \
+'INF_FileSystem	db &$(FILE_SYSTEM)&,0'
+
+
+#	Assembly here
+#	-------------
+$(OBJ_DIR)/%.o : $(SOURCE_DIR)/%.mip
+	@$(ECHO) Assembling $<
+	@$(ASM) $(ASM_OPTS) $<,$@
+
+#	Overal stuff here
+#	-----------------
+CODE_OBJS_TO_MAKE :=		$(foreach FILE,$(ALL_CODE_OBJS),$(OBJ_DIR)/$(FILE))
+
+code : $(CODE_OBJS_TO_MAKE)
+
+cleancode :
+	@$(RM) -f $(CODE_OBJS_TO_MAKE)
+	@$(ECHO) Cleaned code output
+
+#----------------------------------------------------------------------------
+#  Do all the stuff we need to make our CPE, MAP and EXE files
+#----------------------------------------------------------------------------
+.PHONY: link cleanlink
+
+include $(BUILD_DIR)/lnk.mak
+
+
+
+CPE_FILE :=		$(VERSION_DIR)/$(PROJ).cpe
+MAP_FILE :=		$(VERSION_DIR)/$(PROJ).map
+EXE_FILE := 	$(VERSION_DIR)/$(PROJ)_Win.exe
+
+SYM_FILE :=		$(VERSION_DIR)/$(PROJ).sym
+
+LINK_FILE :=	$(TEMP_DIR)/$(PROJ).ln
+
+LD_FLAGS :=		-L$(W64DEVKIT_MGW_LIB_DIR) -L$(W64DEVKIT_GCC_LIB_DIR) -Ltools/PsyX -LUtils/Libs
+LD_LIBS := 		-Wl,--start-group -lSDL2 -lPsyCross -lOpenAL32 -lSDL2main -Wl,--end-group
+
+$(LINK_FILE) : makefile.gaz $(BUILD_DIR)/lnk.mak $(USER_VAR_FILE)
+	@$(REDIR) $(LINK_FILE) $(LINKER_FILE_MACRO)
+
+LINK_FILES_TO_MAKE :=	$(CPE_FILE) $(MAP_FILE) $(SYM_FILE)
+
+$(EXE_FILE): $(CODE_OBJS_TO_MAKE) | $(VERSION_DIR)
+	$(CC) $(LD_FLAGS) $^ $(LD_LIBS) -o $@
+
+$(LINK_FILES_TO_MAKE) : $(LINK_FILE) $(ALL_LIBS_FULL) $(CODE_OBJS_TO_MAKE)
+#	@$(CC) $(LD_FLAGS) @$(LINK_FILE),$(CPE_FILE),$(SYM_FILE),$(MAP_FILE)
+#	@$(LNK) $(LNK_FLAGS) @$(LINK_FILE),$(CPE_FILE),$(SYM_FILE),$(MAP_FILE)
+#	symmunge $(SYM_FILE)
+ifeq ($(USER_NAME),daveox)
+	@cp stats.txt '$(SIZES_DIR)/$(shell $(DATE) '+%d-%m-%Y_%H-%M-%S')'
+endif
+
+link : $(EXE_FILE)
+
+cleanlink :
+	@$(RM) -f $(LINK_FILES_TO_MAKE) $(LINK_FILE)
+	@$(ECHO) Cleaned link output
+
+
+#----------------------------------------------------------------------------
+#	Stuff so you can clean individual files
+#----------------------------------------------------------------------------
+MAKE_TARGETS :=		$(subst /,.,$(patsubst %.o,%,$(foreach FILE,$(ALL_CODE_OBJS),$(FILE))))
+
+CLEAN_TARGETS :=	$(addprefix clean.,$(MAKE_TARGETS))
+
+.PHONY: $(CLEAN_TARGETS)
+.PHONY: $(MAKE_TARGETS)
+
+$(CLEAN_TARGETS) :
+	@$(RM) -f $(addprefix $(OBJ_DIR)/,$(addsuffix .o,$(subst .,/,$(subst clean.,,$@))))
+	@$(ECHO) Cleaned $(addprefix $(OBJ_DIR)/,$(addsuffix .o,$(subst .,/,$(subst clean.,,$@))))
+
+$(MAKE_TARGETS) :
+	$(MAKE) -r -f makefile.gaz VERSION=$(VERSION) TERRITORY=$(TERRITORY) clean.$@
+	$(MAKE) -r -f makefile.gaz VERSION=$(VERSION) TERRITORY=$(TERRITORY) $(OBJ_DIR)/$(subst .,/,$@).o
+
+#----------------------------------------------------------------------------
+#  This bit does everything needed for generating autodependancies
+#----------------------------------------------------------------------------
+ALL_CODE_DEPS :=	$(patsubst %.o,%.d,$(addprefix $(DEPS_DIR)/,$(ALL_CODE_OBJS)))
+
+$(DEPS_DIR)/%.d : $(SOURCE_DIR)/%.cpp
+	@$(MKDIR) -p $(dir $@)
+	-@$(CC) -M $(COMMON_CCFLAGS) $< -o $(TEMP_DIR)/deps.tmp
+	@$(PL) $(PERL_SCRIPT_DIR)/dep.pl $(TEMP_DIR)/deps.tmp $@ $(OBJ_DIR)/$(subst .cpp,.o,$(subst $(SOURCE_DIR)/,,$<))
+	@$(RM) $(TEMP_DIR)/deps.tmp
+	@$(ECHO) Generated autodependancies for $<
+
+deps : $(ALL_CODE_DEPS)
+	@echo Made deps
+
+#ifndef NODEPS
+-include $(ALL_CODE_DEPS)
+#endif
+
+$(DEPS_DIR)/%.d : $(SOURCE_DIR)/%.mip
+	@$(REDIR) $@ '#'
+
+cleandeps :
+	@$(RM) -f $(ALL_CODE_DEPS)
+
+#----------------------------------------------------------------------------
+# Boot strap stuff
+#----------------------------------------------------------------------------
+
+CD_BUILD_DIR :=		CdBuild/
+CD_DIR :=			$(CD_BUILD_DIR)/$(TERRITORY)
+BIGLUMP_FILE :=		$(VERSION_DIR)/BIGLUMP.BIN
+BIN_OUTFILE :=		SPONGEY.BIN
+BOOTSTRAP_DIR :=	source/psxboot/
+BOOTSTRAP_IN :=		$(BOOTSTRAP_DIR)/PsxBoot.cpp
+BOOTSTRAP_CPE :=	$(TEMP_DIR)/PsxBoot.cpe
+BOOTSTRAP_MAP :=	$(TEMP_DIR)/PsxBoot.map
+BOOTSTRAP_SYM :=	$(TEMP_DIR)/PsxBoot.sym
+BOOTSTRAP_EXE :=	$(TEMP_DIR)/PsxBoot.exe
+
+USA_BOOTSTRAP_OUT	:=$(CD_DIR)/SLUS_013.52
+USA_CPE2X_PARAM		:=/CA
+EUR_BOOTSTRAP_OUT	:=$(CD_DIR)/SLES_037.04
+EUR_CPE2X_PARAM		:=/CE
+
+
+
+cddata:
+ifeq ($(USER_NAME),CDBUILD)
+	@$(MKDIR) -p $(CD_DIR)
+#	@$(CPE2BIN) $(CPE_FILE) $(CD_DIR)/$(BIN_OUTFILE)
+	@$(CP) $(MAP_FILE) $(CD_DIR)/$(PROJ).map
+	@$(CP) $(SYM_FILE) $(CD_DIR)/$(PROJ).sym
+	@$(CP) -u $(BIGLUMP_FILE) $(CD_DIR) -f
+	@$(TGA2GFX) graphics/screens/legal.tga $(CD_DIR)/LEGAL.GFX
+	@$(CP) -u Data/CdData/$(TERRITORY).cnf $(CD_DIR)/SYSTEM.CNF -f
+	@$(CP) -u Data/CdData/$(TERRITORY).ccs $(CD_BUILD_DIR)/$(TERRITORY).ccs
+	@$(CP) -u Data/CdData/thq.str $(CD_DIR)/thq.str
+	@$(CP) -u Data/CdData/climax.str $(CD_DIR)/climax.str
+	@$(CP) -u Data/CdData/intro.str $(CD_DIR)/intro.str
+	@$(CP) -u Data/CdData/track1.ixa $(CD_DIR)/track1.ixa
+#	@$(RAR) x data/CDData/ZZZZZZZ.RAR $(CD_DIR)/ -y >nul
+ifeq ($(TERRITORY),EUR)
+	@$(CP) -u Data/CdData/demo.str $(CD_DIR)/demo.str
+endif
+
+
+# Compile bootstrap
+#	@ccpsx -O2 -g $(BOOTSTRAP_IN) -c -Xo$801c0000 $(COMMON_CCFLAGS) -oPsxBoot.o
+#	@slink -m -c -v -z -o 0x801c0000 -cpemunge -we -wm -wo @$(BOOTSTRAP_DIR)/psxboot.ln,$(BOOTSTRAP_CPE),$(BOOTSTRAP_SYM),$(BOOTSTRAP_MAP)
+#	@$(RM) PsxBoot.o
+#	@Cpe2Exe $($(TERRITORY)_CPE2X_PARAM) $(BOOTSTRAP_CPE)
+#	@$(CP) -u $(BOOTSTRAP_EXE) $($(TERRITORY)_BOOTSTRAP_OUT) -f
+	@$(ECHO) $(TERRITORY) Psx CD Built
+
+	@$(BUILDCD) -i$(CD_BUILD_DIR)/psx.img -l data/cddata/$(TERRITORY).cti
+	@$(STRIPISO) s 2352 $(CD_BUILD_DIR)/psx.img $(CD_BUILD_DIR)/$(TERRITORY).iso
+	@$(RM) $(CD_BUILD_DIR)/psx.img
+	@$(RM) CDW900E.toc
+	@$(RM) QSheet.toc
+	@$(ECHO) $(TERRITORY) Iso Built
+endif
+
+
+#	tools\STRIPISO.EXE s 2336 $(CD_BUILD_DIR)/psx.img $(CD_BUILD_DIR)/$(TERRITORY).iso
+
+#----------------------------------------------------------------------------
+#	Main dependancy
+#	---------------
+
+ifdef ERR_STR
+all:
+	@$(ECHO) Error: $(ERR_STR)
+
+else
+
+all: dirs link cddata
+	@$(ECHO) Built !$(TERRITORY):$(VERSION):$(FILE_SYSTEM)!.
+
+
+.PHONY: clean
+
+clean : cleanlink cleandeps cleancode
+	@$(ECHO) Cleaning complete
+
+endif
+
+#----------------------------------------------------------------------------
+# end---

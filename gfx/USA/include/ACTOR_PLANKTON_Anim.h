@@ -1,0 +1,13 @@
+// PLANKTON Anim Header
+
+#ifndef	__ANIM_PLANKTON_HEADER__
+#define	__ANIM_PLANKTON_HEADER__
+
+
+enum	ANIM_PLANKTON_LIST
+{
+	ANIM_PLANKTON_IDLE=0,
+	NUM_ANIM_PLANKTON
+};
+
+#endif
