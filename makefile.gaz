@@ -301,8 +301,6 @@ player_src :=		demoplay \
 					psspring \
 					psswal
 
-psxboot_src :=      PsxBoot
-
 save_src :=			save
 
 script_src :=		script \
@@ -316,8 +314,7 @@ sound_src :=		sound \
 					cdxa \
 					xmplaylib
 
-system_src :=		main \
-					gstate \
+system_src :=		gstate \
 					vid \
 					dbg \
 					vsprintf \
@@ -375,6 +372,8 @@ utils_src :=		utils \
 					sincos \
 					lznp \
 					replace
+
+pc_src :=           main
 
 #system_src_mip :=	$(VERSION)/$(TERRITORY)/$(FILE_SYSTEM)/info
 

@@ -35,7 +35,8 @@ enum	FILEPOS_ENUM
 	FILEPOS_MAX
 };
 
-extern char* FileNameList[];
+extern char *FileNameList[];
+extern int FilePositions[];
 void CalcFilePos(int *);
 
 /*******************************************************************************/

@@ -32,6 +32,8 @@ char	*FilenameList[FILEPOS_MAX]=
 */
 };
 
+int FilePositions[FILEPOS_MAX];
+
 /*******************************************************************************/
 void	CalcFilePos(int *Dst)
 {

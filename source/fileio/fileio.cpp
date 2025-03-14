@@ -345,11 +345,11 @@ void	CFileIO::FindAllFilePos()
 // File positions are passed by Bootstrap VIA Scratch Ram (nice!)
 void	CFileIO::GetAllFilePos()
 {
-int	*Pos=(int*)SCRATCH_RAM;
+//int	*Pos=(int*)SCRATCH_RAM;
 
 	for (int Loop=0;Loop<FILEPOS_MAX;Loop++)	
 		{
-		FilePosList[Loop]=*Pos++;
+		FilePosList[Loop]=FilePositions[Loop];
 		}
 
 }
