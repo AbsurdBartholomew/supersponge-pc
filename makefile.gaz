@@ -301,6 +301,8 @@ player_src :=		demoplay \
 					psspring \
 					psswal
 
+psxboot_src :=      PsxBoot
+
 save_src :=			save
 
 script_src :=		script \

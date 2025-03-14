@@ -6,7 +6,7 @@
 
 
 DEV_KIT :=              SONY_PCI
-FILE_SYSTEM :=        PC
+FILE_SYSTEM :=        CD
 RAM_SIZE :=				2
 FINAL_OVERLAYS	:=		1
 

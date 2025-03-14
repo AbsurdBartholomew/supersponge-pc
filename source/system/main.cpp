@@ -5,7 +5,7 @@
 #include <libmcrd.h>
 extern "C" 
 {
-#include <PsyX/PsyX_public.h>
+	#include <PsyX/PsyX_public.h>
 }
 
 #include 	"system\global.h"
@@ -86,6 +86,14 @@ CPaulScene s_paulScene;
 
 #ifndef __MEMCARD_SAVELOAD_H__
 #include "memcard\saveload.h"
+#endif
+
+#ifndef __PSXBOOT_PSXBOOT_H_
+#include "psxboot\PsxBoot.H"
+#endif
+
+#ifndef __FILEIO_FILETAB_H_
+#include "fileio\filetab.h"
 #endif
 
 
@@ -261,6 +269,16 @@ int			TestFMA=-1;
 int 	main()
 {
 	PsyX_Initialise("SpongeBob SquarePants", 640, 480, 0);
+	PsyX_CDFS_Init("SPONGEY.CUE");
+	if (!PsyX_IsCDImageInit())
+	{
+		// failed to read CD image
+		PsyX_Shutdown();
+		return 1;
+	}
+
+	InitSys();
+	CalcFilePos((int*)SCRATCH_RAM);
 
 	CFileIO::GetAllFilePos();
 	InitSystem();
