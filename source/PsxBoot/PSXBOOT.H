@@ -35,4 +35,6 @@ typedef struct
 	DISPENV		disp;
 } 	DB;
 
+void InitSys(void);
+
 #endif

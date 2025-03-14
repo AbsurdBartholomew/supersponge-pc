@@ -294,7 +294,7 @@ void	DbgPollHost()
 {
 #ifndef __CLIMAX_DEVKIT__
 	#if			__FILE_SYSTEM__==PC
-		pollhost();
+//		pollhost();
 	#endif
 #endif
 }
