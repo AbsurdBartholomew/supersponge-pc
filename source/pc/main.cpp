@@ -2,6 +2,11 @@
 /*** PSX Main ***/
 /****************/
 
+extern "C" 
+{
+	#include <PsyX/PsyX_public.h>
+}
+
 #include 	<types.h>
 #include 	<libapi.h>
 #include 	<libetc.h>
@@ -12,12 +17,8 @@
 #include	<kernel.h>
 #include	<libspu.h>
 #include	<memory.h>
-//#include	<libsnd.h>
-
-extern "C" 
-{
-	#include <PsyX/PsyX_public.h>
-}
+// #include	<libsnd.h>
+#include    <windows.h>
 
 #include 	"system\global.h"
 #include 	"fileio\fileio.h"
@@ -337,8 +338,23 @@ int			TestFMA=-1;
 
 int 	main()
 {
+	FILE* file;
+	file = fopen("baserom.bin", "r");
+	if (file)
+		fclose(file);
+	else
+	{
+		MessageBox(
+			GetActiveWindow(),
+			"Couldn't find the CD image! Please place baserom.bin in the game's directory",
+			"Error",
+			MB_ICONERROR | MB_OK
+		);
+		return 1;
+	}
+	PsyX_CDFS_Init("baserom.bin", 0, 0);
+	
 	PsyX_Initialise("SpongeBob SquarePants", 640, 480, 0);
-	PsyX_CDFS_Init("SPONGEY.BIN", 0, 0);
         
 	InitSys();
 	CalcFilePos(FilePositions);
