@@ -390,6 +390,8 @@ void DebugMemFontInit()
 /*****************************************************************************/
 void MemInit()
 {
+#if !defined(__USER_PCBUILD__)
+
 	u16			stack = LListLen - 1;
 	sLList *	mem = &MainRam;
 	char *		addr = (char*)OPT_LinkerOpts.FreeMemAddress;
@@ -412,6 +414,8 @@ void MemInit()
 #ifdef __DEBUG_MEM__
 	resetDebugMem();
 #endif
+
+#endif
 }
 
 
@@ -421,6 +425,8 @@ void MemInit()
 //			I now understand how this memory stuff works, it aint all bad!
 char * MemAllocate( u32 TLen, char const *Name, char const * File, int LineNumber )
 {
+#if !defined(__USER_PCBUILD__)
+  
 sLList	*mem = &MainRam;
 u16		Head = mem->Head;
 char	*Addr = (char*)-1;
@@ -489,11 +495,17 @@ int		BestNode,FirstNode;
 
 	ASSERT( (Addr != (char*)-1) );
 	return Addr;
+
+#else
+	return (char*)malloc(TLen);
+#endif
 }
 
 /*****************************************************************************/
 void  	MemFree( void * Address )
 {
+#if !defined(__USER_PCBUILD__)
+
 u32 	Len;
 sLLNode *node;
 sLList	*mem = &MainRam;
@@ -565,6 +577,10 @@ char	*Addr = (char*)Address;
 
 #ifdef __DEBUG_MEM__
 		freeDebugMem( Address );
+#endif
+
+#else
+	free(Address);
 #endif
 }
 /*
