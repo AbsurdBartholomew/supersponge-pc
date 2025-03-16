@@ -580,6 +580,7 @@ char	*Addr = (char*)Address;
 #endif
 
 #else
+	if (CFileIO::IsFromDataBank(Address)) return;
 	free(Address);
 #endif
 }

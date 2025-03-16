@@ -357,7 +357,7 @@ int 	main()
 	PsyX_Initialise("SpongeBob SquarePants", 640, 480, 0);
         
 	InitSys();
-	CalcFilePos(FilePositions);
+	//CalcFilePos(FilePositions);
 	CFileIO::GetAllFilePos();
 	InitSystem();
 	
