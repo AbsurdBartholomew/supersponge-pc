@@ -25,6 +25,7 @@ PROJ :=			Spongey
 
 USE_EGCS :=		1
 BUILD_DIR :=	build
+FILE_SYSTEM := PC
 
 #----------------------------------------------------------------------------
 #	Includes

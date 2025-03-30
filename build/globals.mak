@@ -110,7 +110,7 @@ PERL_SCRIPT_DIR :=		$(PERL_DIR)/pl
 # ------------
 ECHO :=					echo
 RMDIR :=				rmdir
-MKDIR :=				mkdir
+MKDIR :=				"mkdir.exe"
 REDIR :=				glecho
 TOUCH :=				touch
 RM :=					rm
