@@ -9,7 +9,7 @@ The code was edited in a few places - at the moment I'm not sure what exactly I 
 It shouldn't compile any other builds at the moment due to build information being specifically made for the USA debug build using CD as a filesystem. It's very simple to create the information files, I just wanted to upload this as quick as possible.
 
 ## Does it work?
-Right now, it crashes on CFileIO::GetAllFilePos() at source/fileio/fileio.cpp:352, coincidentally, the first function called when the game starts. So, no it doesn't.
+Right now, it crashes on SpriteBank::load() at source/gfx/sprbank.cpp:178. So, no it doesn't.
 
 ## Dependencies
 They're all in the project for now, but it needs SDL2, PsyCross, and OpenAL.
