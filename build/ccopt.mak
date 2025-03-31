@@ -48,8 +48,6 @@ COMMON_CCFLAGS :=	-D__TERRITORY_$(TERRITORY)__\
 					-fomit-frame-pointer\
 					-fno-exceptions \
 					-fno-rtti \
-					-I$(W64DEVKIT_GCC_INC_DIR) \
-					-I$(W64DEVKIT_MGW_INC_DIR) \
 					-I. \
 					-IUtils/Libs/SDL2 \
 					-I$(PSYQ_INC_DIR) \

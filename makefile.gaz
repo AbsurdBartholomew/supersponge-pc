@@ -477,8 +477,8 @@ SYM_FILE :=		$(VERSION_DIR)/$(PROJ).sym
 
 LINK_FILE :=	$(TEMP_DIR)/$(PROJ).ln
 
-LD_FLAGS :=		-L$(W64DEVKIT_MGW_LIB_DIR) -L$(W64DEVKIT_GCC_LIB_DIR) -Ltools/PsyX -LUtils/Libs
-LD_LIBS := 		-Wl,--start-group -lSDL2 -lPsyCross -lOpenAL32 -lSDL2main -Wl,--end-group
+LD_FLAGS :=		-Ltools/PsyX -LUtils/Libs
+LD_LIBS := 		-lPsyCross -lOpenAL32 -lSDL2main -lSDL2
 
 $(LINK_FILE) : makefile.gaz $(BUILD_DIR)/lnk.mak $(USER_VAR_FILE)
 	@$(REDIR) $(LINK_FILE) $(LINKER_FILE_MACRO)
